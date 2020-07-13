@@ -1,0 +1,14 @@
+{
+  "name": "tpexpress",
+  "version": "1.0.0",
+  "description": "Trabajo Practico Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonatan Cespedes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
