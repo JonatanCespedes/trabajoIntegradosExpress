@@ -36,7 +36,7 @@ const autos = {
     },
     
     idDato: function(req, res){
-        res.set({'content-type': 'test/plain; charset=utf-8'});
+        res.set({'content-type': 'text/plain; charset=utf-8'});
         concesionariasJSON.forEach(element=>{
             let idDatoAnio = req.params.dato
             element.autos.forEach(auto=>{
